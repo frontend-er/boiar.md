@@ -146,7 +146,7 @@ body.lock {
 }
 
 .quote-top-header__text p {
-  width: 780px;
+  width: 500px;
 }
 
 .quote-top-header__button {
@@ -914,6 +914,12 @@ body.lock {
 
   .description-working__list li {
     padding: 0px 20px 0px 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quote-top-header__label {
+    font-size: 35px;
   }
 }
 
